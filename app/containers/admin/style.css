@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    position: fixed;
+    height: 100%;
+    top:0;
+    width: 100%;
+}
+.menuContainer{
+    width: 15%;
+    height: 100%;
+    background: #404040;
+}
+.contentContainer{
+    width: 85%;
+    overflow-y: scroll;
+    padding: 20px;
+    background: #eee;
+    font-weight: bold !important;
+    font-size: 15px;
+}
+.indexButton{
+    /* flex:1; */
+    /* margin-left: 10px; */
+    position: fixed;
+    right: 0;
+    top: 0px;
+    opacity: 0.04;
+}
+.indexButton:hover{
+  opacity: 1;
+}
